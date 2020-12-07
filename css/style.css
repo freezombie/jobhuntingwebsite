@@ -1,0 +1,115 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11.4.2015, 14:44:54
+    Author     : Antti
+*/
+
+body.index
+{
+    width: 99vw;
+    height: 90vh;
+    background-color: bisque
+}
+
+table
+{
+    border-collapse: collapse;
+}
+
+td, th
+{
+    padding: 5px;
+    width: 10vw;
+    text-align: left;
+}
+
+table.tarjoaja
+{
+    border-collapse: collapse
+}
+
+td.tarjoaja, th.tarjoaja
+{
+    border: 1px solid black
+}
+.center
+{
+    text-align: center;
+}
+
+td.radio
+{    
+    text-align: center;
+}
+
+td.haku
+{
+    padding-left: 6px
+}
+
+table.firsttable
+{
+   margin-bottom: 5vh 
+}
+
+form
+{
+    float: left;
+}
+
+div.index
+{
+    text-align: center;
+    width: 90vw;
+    height: 90vh;
+    background-color: yellow;
+    border: #a0a0a0 solid 1px;
+    margin-left: 5vw;
+    margin-top: 5vh
+}
+
+div.index:before {
+  content: '';
+  display: inline-block;
+  height: 100%; 
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+ }
+
+a
+{
+    text-align: center;
+    font-size: 42px;    
+}
+
+a.cv
+{
+    text-align: center;
+    font-size: 14px;
+}
+.firstlink
+{      
+    display: inline-block;
+    vertical--align: middle;
+    background-color: green;       
+    width: 17%;
+    padding: 10px 15px;
+    border: #a0a0a0 solid 1px;
+    background: #f5f5f5;
+}
+
+.secondlink
+{
+    display: inline-block;
+    vertical--align: middle;
+    background-color: green;       
+    width: 20%;
+    padding: 10px 15px;
+    border: #a0a0a0 solid 1px;
+    background: #f5f5f5;
+    margin-left: 15vh
+}
